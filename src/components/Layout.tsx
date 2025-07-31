@@ -2,7 +2,7 @@
 
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
-import { User } from '../lib/types';
+import { User } from '../../lib/types';
 
 interface LayoutProps {
   children: React.ReactNode;

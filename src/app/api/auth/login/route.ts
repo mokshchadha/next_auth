@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
-import users from '../../../lib/users.json';
-import { signToken, setAuthCookie } from '../../../lib/auth';
-import { LoginRequest } from '../../../lib/types';
+import users from '../../../../lib/users.json';
+import { signToken, setAuthCookie } from '../../../../lib/auth';
+import { LoginRequest } from '../../../../lib/types';
 
 export async function POST(request: NextRequest) {
   try {

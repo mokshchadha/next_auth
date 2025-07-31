@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { getServerSession } from 'next-auth';
-import { authOptions } from '../../../lib/auth-config';
-import { signToken, setAuthCookie } from '../../../lib/auth';
+import { authOptions } from '../../../../lib/auth-config';
+import { signToken, setAuthCookie } from '../../../../lib/auth';
 
 export async function POST() {
     try {

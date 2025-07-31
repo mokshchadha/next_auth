@@ -1,8 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Layout from '../components/Layout';
-import { User } from '../lib/types';
+import Layout from '../../components/Layout';
+import { User } from '../../lib/types';
 
 export default function Dashboard() {
   const [user, setUser] = useState<User | null>(null);
