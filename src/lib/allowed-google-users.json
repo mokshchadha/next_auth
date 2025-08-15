@@ -1,0 +1,8 @@
+{
+  "allowedEmails": [
+    "admin@example.com",
+    "user1@gmail.com",
+    "john.doe@company.com",
+    "demo@gmail.com"
+  ]
+}
